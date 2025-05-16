@@ -36,9 +36,9 @@
   "author": "Walker",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/walker/ciwaze-partner-feedtyworks/issues"
+    "url": "https://github.com/walker/waze-partner-feed/issues"
   },
-  "homepage": "https://walker.github.io/citywwaze-partner-feedorks/",
+  "homepage": "https://walker.github.io/waze-partner-feed/",
   "devDependencies": {
     "chai": "*",
     "chai-as-promised": "~8.0.0",

@@ -1,4 +1,4 @@
-import { CWError } from './error'
+import { WazePFError } from './error'
 
 const https = require('https')
 const querystring = require('querystring')

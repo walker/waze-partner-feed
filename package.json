@@ -1,0 +1,60 @@
+{
+  "name": "citywaze-partner-feed",
+  "version": "1.0.0",
+  "description": "A Waze \"partner\" feed builder",
+  "main": "dist/index.js",
+  "umd:main": "dist/index.umd.js",
+  "module": "dist/index.m.js",
+  "source": "src/index.ts",
+  "files": [
+    "dist/*"
+  ],
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "microbundle watch",
+    "build": "microbundle",
+    "test": "mocha -R spec --recursive ./test/ -g ",
+    "fulltest": "mocha -R spec --recursive ./test/",
+    "docs": "./node_modules/typedoc/bin/typedoc --tsconfig ./tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/walker/waze-partner-feed.git"
+  },
+  "keywords": [
+    "waze",
+    "json",
+    "wrapper",
+    "government",
+    "local",
+    "travel data",
+    "road closures",
+    "roads"
+  ],
+  "author": "Walker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/walker/ciwaze-partner-feedtyworks/issues"
+  },
+  "homepage": "https://walker.github.io/citywwaze-partner-feedorks/",
+  "devDependencies": {
+    "chai": "*",
+    "chai-as-promised": "~8.0.0",
+    "dotenv": "~16.4.5",
+    "jsdoc-to-markdown": "~9.0.1",
+    "microbundle": "~0.15.1",
+    "mocha": "~10.7.3",
+    "typedoc": "~0.26.7",
+    "typescript": "^5.6.2",
+    "winston": "~3.14.2"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "form-data": "^4.0.0",
+    "lodash": "~4.17.21",
+    "mime-types": "^2.1.35",
+    "reversible-map": "~1.0.1"
+  }
+}
